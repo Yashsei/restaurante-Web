@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1A1A1A ;
+}
+.card {
+  background: #F5F5DC;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.blanco{
+  padding: 10px;
+  color: aliceblue;
+}
+.negro{
+  padding: 10px;
+  color: black;
+}
+h1{
+  padding: 10px;
+  color: aliceblue;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  box-sizing: border-box;
+}
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-update {
+  background: #007bff;
+}
+.btn-update:hover {
+  background: #28a745;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+.btn_return{
+  background: #28a745;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn_return:hover{
+  background: #007bff;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}

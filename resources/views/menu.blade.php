@@ -13,7 +13,7 @@
         <a href="">Menú</a>
         <a href="">Reservas</a>
     </div>
-    <h1>Productos</h1>
+    <h1>Dominos Pizza</h1>
     <div class="menu_grid">
         @forelse($platillos as $platillo)
             <div class="card">
