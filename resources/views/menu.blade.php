@@ -7,7 +7,12 @@
     <title>Menú del Restaurante</title>
 </head>
 <body>
-    <h1>Menú del Restaurante</h1>
+    <div class="main-slide">
+        <a href="">Nuestra Historia</a>
+        <a href="">Menú</a>
+        <a href="">Reservas</a>
+    </div>
+    <h1>Productos</h1>
     <div class="menu_grid">
         @forelse($platillos as $platillo)
             <div class="card">
