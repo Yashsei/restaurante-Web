@@ -7,6 +7,7 @@
     <title>Menú del Restaurante</title>
 </head>
 <body>
+    @include ('header')
     <div class="main-slide">
         <a href="">Nuestra Historia</a>
         <a href="">Menú</a>
