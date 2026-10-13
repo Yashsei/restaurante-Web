@@ -6,7 +6,6 @@
 body{
   background-color: beige;
   width: 100%;
-  color: blue;
   margin: auto;
 }
 h1 {
@@ -15,7 +14,7 @@ h1 {
   padding: 15px;
 }
 .header {
-  background-color:aliceblue;
+  background-color:#fef7e2;
   padding: 0 20px;
   width: 100%;
   height: 120px;
@@ -40,27 +39,52 @@ h1 {
 .logo{
   width:100px
 }
+.slide{
+  width: 100%;
+  background-color: #fef7e2;
+  min-height: 200px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.slide h3{
+  text-align: left;
+  padding: 20px 20px 0px 20px;
+  font-family:cursive;
+  font-size: 55px;
+  font-style: italic;
+  color: #8f4c23;
+  font-weight: lighter;
+}
+.slide p{
+  text-align: left; 
+  padding: 10px 20px;
+  color: #b07f5c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
 .main-slide{
   width: 100%;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/main-slide.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-start: auto;
+  gap: 20px;
+  padding: 10px;
   text-align: left;
 }
-.main-slide a{
-  display: inline-block;
-  width: 90%;
-  margin: 40px 20px;
-  padding: 10px 20px;
-  color: aliceblue;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 60px;
-  font-weight: light;
-  border-width: 2px;
+.grid-item{
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  box-shadow: #333;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: violet;
+}
+.grid-img{
+  width: 70%;
 }
 .menu_grid{
   display: grid;
@@ -68,6 +92,9 @@ h1 {
   gap: 20px;
   max-width: 1000px;
   margin: 0 auto;
+}
+.menu_grid a{
+  text-decoration: none;
 }
 .card{
   background-color: aliceblue;
